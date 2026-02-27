@@ -9,7 +9,7 @@ public class Add {
         int result ;
       
 
-        // 변수의 값을 할당(대입)
+        // 변수의 값을 할당(대입).
         x = 3 ; // 쓰기
         y = 5 ;
         result = x + y ; // + 기호는 덧셈
