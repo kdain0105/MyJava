@@ -14,7 +14,7 @@ public class Add {
         y = 5 ;
         result = x + y ; // + 기호는 덧셈
 
-        System.out.println(" x = " + x ); // + 기호는 문자열 결합
+        System.out.println(" x = " + x ); // + 기호는 문자열 결합 //
         System.out.println(" y = " + y );
         System.out.println(" result = " + result );
 
