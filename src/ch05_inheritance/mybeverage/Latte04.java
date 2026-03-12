@@ -1,7 +1,14 @@
 package ch05_inheritance.mybeverage;
 
-public class Latte04 extends Beverage04 {
+import ch06_abstract_interface.cafeinterface.MilkChange;
+
+public class Latte04 extends Beverage04 implements MilkChange {
     private String milkType ; // 우유타입
+
+    @Override
+    public void Milkchange(String milkType) {
+        this.milkType = milkType;
+    }
 
     @Override
     public String toString() {
